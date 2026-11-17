@@ -76,6 +76,8 @@ Este documento detalha, em forma de árvore hierárquica, os principais fluxos q
 
 ## 5. Aluno agenda um treino pelo calendário
 
+> **Fora da versão sem agendamento:** em 17/11/2026 o professor pediu também uma versão do site sem a parte de agendamento. Nessa versão, os botões de agendar levam ao contato no rodapé (WhatsApp e Instagram).
+
 ```
 0. Agendar treino
   1. Acessar a área de agendamento
@@ -95,5 +97,5 @@ Este documento detalha, em forma de árvore hierárquica, os principais fluxos q
 ## Observações
 
 - Os cinco fluxos acima cobrem os quatro perfis de usuário do sistema: professor, aluno, visitante e coordenação.
-- O agendamento (fluxo 5) foi confirmado pelo cliente e pede apenas nome e telefone, sem cadastro ou login.
+- O agendamento (fluxo 5) foi confirmado pelo cliente e pede apenas nome e telefone, sem cadastro ou login. Ele fica fora da versão sem agendamento, pedida pelo professor em 17/11/2026.
 - Nenhum fluxo aqui depende de cadastro, login, pagamento ou notificações automáticas por WhatsApp; funcionalidades fora do escopo atual por orientação do Thiago e decisão do grupo.

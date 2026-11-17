@@ -9,6 +9,8 @@
 
 O protótipo tem dois fluxos iniciais: **"Site — PKZ / One to One"** (começa na Home) e **"Sistema interno — professor"** (começa no perfil do aluno).
 
+> **Versão sem agendamento (17/11/2026):** o professor pediu também uma versão do site sem a parte de agendamento. Nessa versão, as telas 04 a 06 (incluindo 05a e 05b) ficam de fora, e os botões de agendar levam ao contato no rodapé.
+
 ---
 
 ## Decisões de design
@@ -41,26 +43,36 @@ Personal training para todas as idades: hero, sobre nós, modalidades, diferenci
 ![Página One to One](telas/03-one-to-one.png)
 
 ### 04 · Agendamento — calendário
+> **Fora da versão sem agendamento:** em 17/11/2026 o professor pediu também uma versão do site sem a parte de agendamento. Nessa versão, os botões de agendar levam ao contato no rodapé (WhatsApp e Instagram).
+
 Calendário mensal com filtro por estúdio e disponibilidade de cada dia (livre, poucos horários, lotado, fechado). Clicar em um dia disponível abre a mini tela.
 
 ![Calendário](telas/04-agendamento-calendario.png)
 
 ### 05a · Agendamento — mini tela incompleta
+> **Fora da versão sem agendamento:** em 17/11/2026 o professor pediu também uma versão do site sem a parte de agendamento. Nessa versão, os botões de agendar levam ao contato no rodapé (WhatsApp e Instagram).
+
 Ao clicar no dia, a mini tela abre com o nome preenchido, mas sem telefone e sem horário escolhido.
 
 ![Mini tela incompleta](telas/05a-agendamento-incompleto.png)
 
 ### 05b · Agendamento — erro no preenchimento
+> **Fora da versão sem agendamento:** em 17/11/2026 o professor pediu também uma versão do site sem a parte de agendamento. Nessa versão, os botões de agendar levam ao contato no rodapé (WhatsApp e Instagram).
+
 Ao tentar confirmar com campos faltando, aparece um **aviso de erro** no topo da mini tela, e os campos que faltam ficam destacados em vermelho com uma mensagem explicando o que preencher. Ao escolher um horário, o usuário segue para a mini tela completa.
 
 ![Erro no preenchimento](telas/05b-agendamento-erro.png)
 
 ### 05 · Agendamento — mini tela do dia
+> **Fora da versão sem agendamento:** em 17/11/2026 o professor pediu também uma versão do site sem a parte de agendamento. Nessa versão, os botões de agendar levam ao contato no rodapé (WhatsApp e Instagram).
+
 Mini tela (modal) com **nome**, **telefone** e **horário**, os campos pedidos pelo cliente. O campo **Estúdio** é sugestão do grupo e ainda precisa ser confirmado com o cliente.
 
 ![Mini tela](telas/05-agendamento-mini-tela.png)
 
 ### 06 · Agendamento — confirmado
+> **Fora da versão sem agendamento:** em 17/11/2026 o professor pediu também uma versão do site sem a parte de agendamento. Nessa versão, os botões de agendar levam ao contato no rodapé (WhatsApp e Instagram).
+
 Resumo do agendamento e aviso de confirmação pelo WhatsApp.
 
 ![Confirmado](telas/06-agendamento-confirmado.png)
@@ -96,6 +108,8 @@ Relatório **gerado automaticamente** a partir dos testes (Ações 3 e 4): resum
 | Confirmado | "Voltar ao início" | Home |
 | Perfil do aluno | "Gerar relatório do mês" | Relatório para os pais |
 
+Na versão sem agendamento, o menu não tem o item "Agendamento", e os botões "Fale conosco" e "Falar com a equipe" levam ao contato no rodapé, no lugar do calendário.
+
 ---
 
 ## Relação com os documentos
@@ -103,6 +117,6 @@ Relatório **gerado automaticamente** a partir dos testes (Ações 3 e 4): resum
 | Tela | Brainstorm | 5W2H |
 |---|---|---|
 | Home, PKZ, One to One | Itens 9 e 10 | Ações 6 e 7 |
-| Agendamento (04–06, incluindo 05a e 05b) | Item 13 | Ação 8 |
+| Agendamento (04–06, incluindo 05a e 05b; fora da versão sem agendamento) | Item 13 | Ação 8 |
 | Perfil do aluno (fora do escopo da AP2) | Itens 1, 3 e 8 | Ações 1, 2 e 5 |
 | Relatório para os pais (fora do escopo da AP2) | Itens 4, 5, 6 e 7 | Ações 3 e 4 |

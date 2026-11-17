@@ -31,12 +31,14 @@ Propor uma solução digital que centralize os dados dos alunos em um sistema ú
 - Resumo automático do treino anterior ao abrir o perfil do aluno
 - Redesenho da interface com identidade visual coesa entre as duas marcas
 - Site institucional com hero section na tela inicial; ao rolar a página, aparecem as duas marcas lado a lado, e o usuário escolhe seguir para a página da PKZ ou da One to One
-- Agendamento pelo calendário: ao clicar em um dia, abre uma mini tela (modal) para informar nome, horário e telefone de contato — confirmado pelo cliente após o levantamento inicial
+- Agendamento pelo calendário: ao clicar em um dia, abre uma mini tela (modal) para informar nome, horário e telefone de contato — confirmado pelo cliente após o levantamento inicial (fica fora da versão sem agendamento; ver nota abaixo)
 
 **Fica de fora por enquanto:**
 - Cobrança financeira e notificações automáticas por WhatsApp — por orientação do professor Thiago, que pediu para aguardar confirmação do cliente sobre esses pontos antes de detalhá-los
 - Cadastro, login e telas de dados pessoais além do mínimo do agendamento (nome e telefone) — decisão do próprio grupo, por envolver informações pessoais fora do escopo acadêmico atual; no protótipo, todos os dados são fictícios
 - Serviço de scout esportivo automatizado — tratado como proposta exploratória (diferencial), não como requisito essencial desta entrega
+
+> **Versão sem agendamento (17/11/2026):** na AP2, o professor pediu também uma versão do site sem a parte de agendamento. Nessa versão, o site tem só a Home, as páginas PKZ, One to One e Fisioterapia, e o contato com a equipe pelo rodapé (WhatsApp e Instagram).
 
 ## 4. Público-alvo / stakeholders
 

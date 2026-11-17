@@ -42,7 +42,7 @@ Itens derivados das demandas do cliente e do brainstorm. **Prioridade:** Essenci
 | PB05 | Como **professor**, quero ver o resumo do último treino ao abrir o perfil do aluno, para dar continuidade ao treino. | Essencial | Brainstorm 8 · 5W2H Ação 5 | Prototipado (tela 07) |
 | PB06 | Como **cliente**, quero uma identidade visual coesa entre PKZ e One to One, para a marca parecer mais profissional. | Essencial | Brainstorm 9 · 5W2H Ação 6 | Prototipado (todas as telas) |
 | PB07 | Como **visitante**, quero conhecer as duas marcas no site e escolher entre PKZ e One to One, para encontrar o estúdio certo para mim ou meu filho. | Essencial | Brainstorm 10 · 5W2H Ação 7 | Prototipado (telas 01–03) |
-| PB08 | Como **aluno**, quero agendar meu treino por um calendário, informando nome, horário e telefone, sem precisar perguntar se tem vaga. | Essencial | Brainstorm 13 · 5W2H Ação 8 | Prototipado (telas 04–06) |
+| PB08 | Como **aluno**, quero agendar meu treino por um calendário, informando nome, horário e telefone, sem precisar perguntar se tem vaga. | Essencial | Brainstorm 13 · 5W2H Ação 8 | Prototipado (telas 04–06); fora da versão sem agendamento (17/11/2026) |
 | PB09 | Como **responsável**, quero comparar a evolução mês a mês, para acompanhar o progresso ao longo do tempo. | Diferencial | Brainstorm 6 | Prototipado (tela 08) |
 | PB10 | Como **responsável**, quero indicadores visuais (setas e cores), para entender rapidamente o que melhorou. | Diferencial | Brainstorm 7 | Prototipado (tela 08) |
 | PB11 | Como **usuário**, quero ver apenas as informações do meu perfil (professor, coordenação ou aluno). | Diferencial | Brainstorm 2 | Proposto |
@@ -90,6 +90,7 @@ Itens derivados das demandas do cliente e do brainstorm. **Prioridade:** Essenci
 - Sem cadastro, sem login e sem cards ou dados de treino de atletas.
 - A única integração com back-end seria o **agendamento de aula experimental**: no vanilla é só visual. **Atualização em 12/11/2026:** o React também fica sem back-end, e o agendamento usa horários simulados.
 - As telas 07 (perfil do aluno) e 08 (relatório para os pais) ficaram fora do escopo da AP2. Os itens PB01–PB05 e PB09–PB10 continuam no backlog como proposta para uma próxima etapa.
+- **Atualização em 17/11/2026:** o professor pediu também uma **versão do site React sem agendamento**. Ela fica num repositório próprio e tem publicação própria no Vercel (seção 6.5). Nessa versão, as telas 04–06 (agendamento e confirmação) ficam de fora.
 
 ### 6.2 Como o grupo vai trabalhar
 
@@ -155,7 +156,7 @@ O Scrum Master sobe a base do projeto primeiro. As branches dos integrantes só 
 |---|---|---|---|
 | A01 | Definir o back-end do agendamento: API do professor ou do próprio grupo. O site começa sem back-end. | Leonardo Camero (com o professor) | Resolvido (12/11/2026): sem back-end; o agendamento fica com horários simulados |
 | A02 | Calendário do agendamento no celular: em telas pequenas ficam colunas demais e o layout precisa mudar | Leonardo Camero | Concluído (16/11/2026): no celular cada dia mostra só o número e a cor da disponibilidade; o texto fica na legenda |
-| A03 | Confirmar com o cliente o campo "Estúdio" no agendamento (sugestão do grupo desde o protótipo) | Leonardo Camero | Em aberto |
+| A03 | Confirmar com o cliente o campo "Estúdio" no agendamento (sugestão do grupo desde o protótipo) | Leonardo Camero | Em aberto (só vale para a versão com agendamento) |
 | A04 | Trocar as fotos provisórias (CC0) pelas fotos oficiais quando o cliente enviar | Leonardo Camero | Aguardando cliente |
 | A05 | Página de fisioterapia ligada à PKZ e ao One to One, com card na Home e sem item novo no menu | Leonardo Camero | Primeira versão feita (17/11/2026); textos a confirmar com o cliente |
 
@@ -175,3 +176,26 @@ O Scrum Master sobe a base do projeto primeiro. As branches dos integrantes só 
 - 16/11/2026: logos oficiais enviados pelo cliente (Playmakerz e One to One Studio) aplicados no header e no footer, em SVG, no lugar do "PKZ" em PNG e do "ONE TO ONE" em texto.
 - 17/11/2026: pedido do cliente: página de fisioterapia (`/fisioterapia`), ligada às duas empresas. Entra por um card na Home, abaixo de PKZ e One to One, sem mudar o menu. Textos provisórios.
 - 17/11/2026: agendamento com campo "Atendimento" (aula experimental, fisioterapia ou avaliação). Os botões da página de fisioterapia já abrem o agendamento com fisioterapia marcada, e a confirmação mostra o tipo escolhido.
+
+### 6.5 Versão sem agendamento
+
+Pedido do professor em 17/11/2026: além do site React com agendamento, entregar uma versão igual, mas sem a parte de agendamento.
+
+- **Repositório:** https://github.com/leomautone/PFE-2026-2-AP2-Grupo3-terca-react-sem-agendamento
+- **Site no ar:** https://pfe-2026-2-ap-2-grupo3-terca-react-nu.vercel.app
+- **Site com agendamento (versão original):** https://pfe-2026-2-ap-2-grupo3-terca-react.vercel.app
+
+| ID | Tarefa | Responsável | Status |
+|---|---|---|---|
+| S01 | Criar o repositório da versão sem agendamento a partir do site React | Leonardo Camero | Concluído (17/11/2026) |
+| S02 | Tirar as páginas de agendamento e de confirmação, as rotas e o item "Agendamento" do menu | Leonardo Camero | Concluído (17/11/2026) |
+| S03 | Trocar os botões de agendar por botões de contato, que levam ao rodapé, e ajustar os textos que falavam de agendar pelo site | Leonardo Camero | Concluído (17/11/2026) |
+| S04 | Publicar a versão sem agendamento no Vercel | Leonardo Camero | Concluído (17/11/2026) |
+| S05 | Atualizar a documentação para a versão sem agendamento | Leonardo Camero | Concluído (17/11/2026) |
+
+**Registro do Scrum Master**
+
+- 17/11/2026: o professor pediu uma versão do site sem agendamento. Repositório novo criado a partir do site React, com todo o histórico do grupo.
+- 17/11/2026: removidas as páginas `/agendamento` e `/confirmado`. Os botões "Agendar" da Home, PKZ, One to One e Fisioterapia viraram "Falar com a equipe" e levam ao contato no rodapé. O botão do topo virou "Fale conosco", com o mesmo tamanho do antigo "Agendar aula", para não cobrir o logo no celular.
+- 17/11/2026: versão sem agendamento publicada no Vercel. Páginas testadas no computador e no celular, sem login.
+- 17/11/2026: documentação atualizada: protótipo, documento de visão, AHT e 5W2H marcam o agendamento como fora dessa versão. A entrevista e o brainstorm ficam como estão, porque são o registro do que o cliente pediu na AP1.
