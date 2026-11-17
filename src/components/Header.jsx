@@ -78,7 +78,7 @@ export default function Header({ claro = false }) {
           <a href="#contato" onClick={fecharMenu}>Contato</a>
         </nav>
 
-        <a href="#contato" className="botao botao-claro">Fale com a gente</a>
+        <a href="#contato" className="botao botao-claro">Fale conosco</a>
       </div>
     </header>
   );

@@ -25,7 +25,7 @@ export default function Home() {
                 Conhecer os estúdios ↓
               </a>
               <a href="#contato" className="botao botao-claro">
-                Fale com a gente
+                Fale conosco
               </a>
             </div>
           </div>
