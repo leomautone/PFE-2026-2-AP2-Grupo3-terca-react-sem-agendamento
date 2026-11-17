@@ -1,5 +1,4 @@
 
-import { Link } from "react-router-dom";
 import "./OneToOne.css";
 import useTitulo from "../components/useTitulo.js";
 
@@ -20,9 +19,9 @@ export default function OneToOne() {
                 o que for.
               </p>
               <div className="hero-acoes">
-                <Link to="/agendamento" className="botao botao-claro">
-                  Agendar meu treino
-                </Link>
+                <a href="#contato" className="botao botao-claro">
+                  Falar com a equipe
+                </a>
                 <a href="#sobre" className="botao botao-claro">
                   Conhecer o estúdio ↓
                 </a>
@@ -176,7 +175,7 @@ export default function OneToOne() {
             </div>
             <div>
               <span className="numero">0</span>
-              <p>mensagens para saber se tem vaga — você agenda sozinho</p>
+              <p>treinos iguais — cada aula é pensada para você</p>
             </div>
             <div>
               <span className="numero">1 clique</span>
@@ -209,7 +208,7 @@ export default function OneToOne() {
               <strong>Carlos, 52 anos</strong>
               <span className="estrelas">★★★★★</span>
               <p>
-                Agendar é muito fácil, faço tudo pelo celular. E o treino é
+                Falo com a equipe pelo WhatsApp e resolvo tudo rápido. E o treino é
                 realmente pensado pra mim.
               </p>
               <span className="pilula">CONDICIONAMENTO</span>
@@ -278,10 +277,10 @@ export default function OneToOne() {
       <section id="agendar" className="secao secao-onetoone">
         <div className="container">
           <h2>BORA TREINAR?</h2>
-          <p>Escolha o dia no calendário e o horário que funciona para você.</p>
-          <Link to="/agendamento" className="botao botao-claro">
-            Escolher dia no calendário →
-          </Link>
+          <p>Fale com a nossa equipe e combine o horário que funciona para você.</p>
+          <a href="#contato" className="botao botao-claro">
+            Falar com a equipe →
+          </a>
         </div>
       </section>
     </div>

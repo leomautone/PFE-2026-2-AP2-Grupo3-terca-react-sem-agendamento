@@ -6,9 +6,6 @@ import { Outlet, useLocation } from "react-router-dom";
 import Header from "./Header.jsx";
 import Footer from "./Footer.jsx";
 
-// páginas que usam o header branco (como no vanilla)
-const PAGINAS_HEADER_CLARO = ["/agendamento", "/confirmado"];
-
 export default function Layout() {
   const { pathname, hash } = useLocation();
 
@@ -23,7 +20,7 @@ export default function Layout() {
 
   return (
     <>
-      <Header claro={PAGINAS_HEADER_CLARO.includes(pathname)} />
+      <Header />
       <main>
         <Outlet />
       </main>

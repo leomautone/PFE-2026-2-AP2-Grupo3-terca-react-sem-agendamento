@@ -1,6 +1,5 @@
-// PKZ — blocos do Kaue: prévia do relatório, cuidado e segurança, depoimentos, perguntas frequentes, chamada para agendar
+// PKZ — blocos do Kaue: prévia do relatório, cuidado e segurança, depoimentos, perguntas frequentes, chamada para falar com a equipe
 
-import { Link } from "react-router-dom";
 import "./PkzKaue.css";
 
 export default function PkzKaue() {
@@ -161,23 +160,23 @@ export default function PkzKaue() {
               <p>Todo mês, em formato visual, com gráficos e um comentário do professor.</p>
             </details>
             <details className="card">
-              <summary>Como faço para agendar a avaliação?</summary>
-              <p>Escolha um dia no calendário do site e deixe seu nome e telefone. A equipe confirma pelo WhatsApp.</p>
+              <summary>Como faço para marcar a avaliação?</summary>
+              <p>Fale com a equipe pelo WhatsApp ou pelo Instagram (os contatos ficam no rodapé do site) e a gente combina o melhor dia.</p>
             </details>
           </div>
         </div>
       </section>
       {/* fim Perguntas frequentes */}
 
-      {/* Chamada para agendar — Kaue */}
+      {/* Chamada para falar com a equipe — Kaue */}
       <section id="agendar" className="secao secao-pkz">
         <div className="container">
-          <h2>Agende uma avaliação</h2>
-          <p className="subtitulo">Escolha um dia no calendário, deixe seu nome e telefone — nossa equipe confirma com você.</p>
-          <Link to="/agendamento" className="botao botao-claro">Escolher dia no calendário →</Link>
+          <h2>Marque uma avaliação</h2>
+          <p className="subtitulo">Fale com a nossa equipe pelo WhatsApp ou pelo Instagram e a gente combina o melhor dia com você.</p>
+          <a href="#contato" className="botao botao-claro">Falar com a equipe →</a>
         </div>
       </section>
-      {/* fim Chamada para agendar */}
+      {/* fim Chamada para falar com a equipe */}
     </div>
   );
 }

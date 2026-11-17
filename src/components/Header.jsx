@@ -75,11 +75,10 @@ export default function Header({ claro = false }) {
           <NavLink to="/" end className={classeDoLink} onClick={fecharMenu}>Início</NavLink>
           <NavLink to="/pkz" className={classeDoLink} onClick={fecharMenu}>PKZ</NavLink>
           <NavLink to="/onetoone" className={classeDoLink} onClick={fecharMenu}>One to One</NavLink>
-          <NavLink to="/agendamento" className={classeDoLink} onClick={fecharMenu}>Agendamento</NavLink>
           <a href="#contato" onClick={fecharMenu}>Contato</a>
         </nav>
 
-        <Link to="/agendamento" className="botao botao-claro">Agendar aula</Link>
+        <a href="#contato" className="botao botao-claro">Fale com a gente</a>
       </div>
     </header>
   );

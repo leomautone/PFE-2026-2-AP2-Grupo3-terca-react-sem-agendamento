@@ -18,9 +18,10 @@ O cliente é a **PKZ / One to One**, formada por dois estúdios de treinamento e
 
 ### Escopo da AP2
 
-- Site institucional com Home, página PKZ, página One to One e agendamento de aula experimental.
+- Site institucional com Home, página PKZ e página One to One.
+- **Sem agendamento:** esta é a versão pedida pelo professor sem a parte de agendamento de aula experimental. Os botões que levavam ao agendamento agora levam ao contato no rodapé.
 - **Sem** cadastro, **sem** login e **sem** cards ou dados de treino de atletas.
-- **Sem back-end:** o agendamento de aula experimental funciona só no front-end, com horários simulados.
+- **Sem back-end:** o site é só front-end.
 - As telas 07 (perfil do aluno) e 08 (relatório para os pais) do protótipo ficaram **fora do escopo da AP2**, porque dependem de login e de dados do back-end.
 
 ### Entregas
@@ -28,7 +29,8 @@ O cliente é a **PKZ / One to One**, formada por dois estúdios de treinamento e
 | Entrega | Tecnologia | Publicação | Repositório |
 |---|---|---|---|
 | Site vanilla | HTML, CSS e JS puro (agendamento só visual) | GitHub Pages | [PFE-2026-2-AP2-Grupo3-terca-vanilla](https://github.com/leomautone/PFE-2026-2-AP2-Grupo3-terca-vanilla) |
-| Site React (AP2) | React (agendamento com horários simulados) | [Vercel](https://pfe-2026-2-ap-2-grupo3-terca-react.vercel.app) | este repositório |
+| Site React (AP2) | React (agendamento com horários simulados) | [Vercel](https://pfe-2026-2-ap-2-grupo3-terca-react.vercel.app) | [PFE-2026-2-AP2-Grupo3-terca-react](https://github.com/leomautone/PFE-2026-2-AP2-Grupo3-terca-react) |
+| Site React sem agendamento | React (sem a parte de agendamento) | — | este repositório |
 
 Os dois sites estão prontos. Este repositório tem o site React completo (criado com Vite) e a documentação.
 

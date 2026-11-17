@@ -24,9 +24,9 @@ export default function Home() {
               <a href="#estudios" className="botao botao-claro">
                 Conhecer os estúdios ↓
               </a>
-              <Link to="/agendamento" className="botao botao-claro">
-                Agendar aula experimental
-              </Link>
+              <a href="#contato" className="botao botao-claro">
+                Fale com a gente
+              </a>
             </div>
           </div>
           <div className="foto hero-foto">
@@ -99,7 +99,7 @@ export default function Home() {
               <ul>
                 <li>No máximo 3 alunos por horário</li>
                 <li>Treino anterior sempre à mão do professor</li>
-                <li>Agendamento sem precisar perguntar se tem vaga</li>
+                <li>Horários combinados direto com a equipe</li>
               </ul>
               <Link to="/onetoone" className="botao botao-claro">
                 Conhecer o One to One →

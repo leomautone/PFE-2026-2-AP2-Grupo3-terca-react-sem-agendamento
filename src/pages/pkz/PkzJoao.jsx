@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import "./PkzJoao.css";
 
 export default function PkzJoao() {
@@ -14,7 +13,7 @@ export default function PkzJoao() {
               Preparação física para jovens atletas com avaliação completa, treino planejado mês a mês e um relatório visual que você entende em um minuto.
             </p>
             <div className="hero-acoes">
-              <Link className="botao botao-claro" to="/agendamento">Agendar avaliação do meu filho</Link>
+              <a className="botao botao-claro" href="#contato">Falar com a equipe</a>
               <a className="botao botao-claro" href="#como-funciona">Ver como acompanhamos ↓</a>
             </div>
           </div>
