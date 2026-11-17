@@ -30,11 +30,12 @@ O cliente é a **PKZ / One to One**, formada por dois estúdios de treinamento e
 |---|---|---|---|
 | Site vanilla | HTML, CSS e JS puro (agendamento só visual) | GitHub Pages | [PFE-2026-2-AP2-Grupo3-terca-vanilla](https://github.com/leomautone/PFE-2026-2-AP2-Grupo3-terca-vanilla) |
 | Site React (AP2) | React (agendamento com horários simulados) | [Vercel](https://pfe-2026-2-ap-2-grupo3-terca-react.vercel.app) | [PFE-2026-2-AP2-Grupo3-terca-react](https://github.com/leomautone/PFE-2026-2-AP2-Grupo3-terca-react) |
-| Site React sem agendamento | React (sem a parte de agendamento) | — | este repositório |
+| Site React sem agendamento | React (sem a parte de agendamento) | [Vercel](https://pfe-2026-2-ap-2-grupo3-terca-react-nu.vercel.app) | este repositório |
 
-Os dois sites estão prontos. Este repositório tem o site React completo (criado com Vite) e a documentação.
+Os sites estão prontos. Este repositório tem o site React sem agendamento (criado com Vite) e a documentação.
 
-- **Site React no ar:** https://pfe-2026-2-ap-2-grupo3-terca-react.vercel.app
+- **Site React sem agendamento no ar:** https://pfe-2026-2-ap-2-grupo3-terca-react-nu.vercel.app
+- **Site React com agendamento (versão original):** https://pfe-2026-2-ap-2-grupo3-terca-react.vercel.app
 
 - **Protótipo no Figma:** https://www.figma.com/design/CQmuVXYjxTUkLDg5CzWbk0
 - **Repositório da AP1:** https://github.com/leomautone/PFE-2026-2-AP1-Grupo3-terca
