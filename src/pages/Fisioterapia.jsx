@@ -23,10 +23,7 @@ export default function Fisioterapia() {
               </p>
               <div className="fisio-acoes">
                 <a href="#contato" className="botao botao-claro">
-                  Falar com a equipe
-                </a>
-                <a href="#como-funciona" className="botao botao-claro">
-                  Como funciona ↓
+                  Agendar avaliação
                 </a>
               </div>
             </div>

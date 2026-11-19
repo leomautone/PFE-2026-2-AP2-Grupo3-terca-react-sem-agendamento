@@ -158,7 +158,7 @@ O Scrum Master sobe a base do projeto primeiro. As branches dos integrantes só 
 | A02 | Calendário do agendamento no celular: em telas pequenas ficam colunas demais e o layout precisa mudar | Leonardo Camero | Concluído (16/11/2026): no celular cada dia mostra só o número e a cor da disponibilidade; o texto fica na legenda |
 | A03 | Confirmar com o cliente o campo "Estúdio" no agendamento (sugestão do grupo desde o protótipo) | Leonardo Camero | Em aberto (só vale para a versão com agendamento) |
 | A04 | Trocar as fotos provisórias (CC0) pelas fotos oficiais quando o cliente enviar | Leonardo Camero | Aguardando cliente |
-| A05 | Página de fisioterapia ligada à PKZ e ao One to One, com card na Home e sem item novo no menu | Leonardo Camero | Primeira versão feita (17/11/2026); textos a confirmar com o cliente |
+| A05 | Página de fisioterapia ligada à PKZ e ao One to One, com card na Home | Leonardo Camero | Primeira versão feita (17/11/2026); no menu desde 18/11/2026, a pedido do professor; textos a confirmar com o cliente |
 
 **Registro do Scrum Master**
 
@@ -199,3 +199,4 @@ Pedido do professor em 17/11/2026: além do site React com agendamento, entregar
 - 17/11/2026: removidas as páginas `/agendamento` e `/confirmado`. Os botões "Agendar" da Home, PKZ, One to One e Fisioterapia viraram "Falar com a equipe" e levam ao contato no rodapé. O botão do topo virou "Fale conosco", com o mesmo tamanho do antigo "Agendar aula", para não cobrir o logo no celular.
 - 17/11/2026: versão sem agendamento publicada no Vercel. Páginas testadas no computador e no celular, sem login.
 - 17/11/2026: documentação atualizada: protótipo, documento de visão, AHT e 5W2H marcam o agendamento como fora dessa versão. A entrevista e o brainstorm ficam como estão, porque são o registro do que o cliente pediu na AP1.
+- 18/11/2026: pedidos do professor, feitos nas duas versões: Fisioterapia entra no menu, e cada hero fica só com o botão de agendar. Na versão sem agendamento, o botão da hero volta a dizer "Agendar...", mas leva ao contato no rodapé. O menu ☰ passa a valer até 1024px, para o menu não quebrar em telas médias.

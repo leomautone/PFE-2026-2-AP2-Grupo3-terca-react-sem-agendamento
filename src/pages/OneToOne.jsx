@@ -20,10 +20,7 @@ export default function OneToOne() {
               </p>
               <div className="hero-acoes">
                 <a href="#contato" className="botao botao-claro">
-                  Falar com a equipe
-                </a>
-                <a href="#sobre" className="botao botao-claro">
-                  Conhecer o estúdio ↓
+                  Agendar meu treino
                 </a>
               </div>
               <div className="grade-3 hero-numeros">

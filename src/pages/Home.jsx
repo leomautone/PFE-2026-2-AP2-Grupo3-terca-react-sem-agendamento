@@ -21,11 +21,8 @@ export default function Home() {
               atletas, One to One para personal training de todas as idades.
             </p>
             <div className="hero-botoes">
-              <a href="#estudios" className="botao botao-claro">
-                Conhecer os estúdios ↓
-              </a>
               <a href="#contato" className="botao botao-claro">
-                Fale conosco
+                Agendar aula experimental
               </a>
             </div>
           </div>
