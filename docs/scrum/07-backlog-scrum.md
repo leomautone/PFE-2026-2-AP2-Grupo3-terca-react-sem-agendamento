@@ -200,3 +200,4 @@ Pedido do professor em 17/11/2026: além do site React com agendamento, entregar
 - 17/11/2026: versão sem agendamento publicada no Vercel. Páginas testadas no computador e no celular, sem login.
 - 17/11/2026: documentação atualizada: protótipo, documento de visão, AHT e 5W2H marcam o agendamento como fora dessa versão. A entrevista e o brainstorm ficam como estão, porque são o registro do que o cliente pediu na AP1.
 - 18/11/2026: pedidos do professor, feitos nas duas versões: Fisioterapia entra no menu, e cada hero fica só com o botão de agendar. Na versão sem agendamento, o botão da hero volta a dizer "Agendar...", mas leva ao contato no rodapé. O menu ☰ passa a valer até 1024px, para o menu não quebrar em telas médias.
+- 19/11/2026: botão da hero um pouco maior no computador e, na PKZ, o botão da hero passou de "Agendar avaliação do meu filho" para "Agendar avaliação".
